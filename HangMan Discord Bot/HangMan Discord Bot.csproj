@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>HangMan_Discord_Bot</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00814" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00814" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00814" />
+    <PackageReference Include="IKVM" Version="8.1.5717" />
+  </ItemGroup>
+
+</Project>
